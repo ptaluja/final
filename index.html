@@ -1,0 +1,68 @@
+---
+layout: feature
+lang: en
+fileName: en
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-sm-12 col-md-12 col-lg-12">
+      <br />
+      <p style="color: black; font-size: 40px">webp to jpg/jpeg/png</p>
+      <input
+        type="file"
+        accept="image/*"
+        id="input"
+        onchange="convert()"
+        style="margin-top: 40px; margin-left: 50px"
+      /><br /><br />
+      <h2
+        style="
+          color: white;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+        "
+      >
+        <i>ENTER THE DIMENSIONS</i>
+      </h2>
+      <input
+        type="text"
+        id="width"
+        placeholder="enter the width"
+        style="border: 3px solid black; border-radius: 25px; height: 35px"
+      />X<input
+        type="text"
+        id="height"
+        placeholder="enter the height"
+        style="border: 3px solid black; border-radius: 25px; height: 35px"
+      />
+      <button
+        type="button"
+        onclick="resolution()"
+        style="border-radius: 25px"
+        class="btn btn-primary"
+      >
+        CHANGE RESOLUTION</button
+      ><br /><br />
+      please enter the format to be converted
+      <select id="c">
+        <option value="jpg">jpg</option>
+        <option value="png">png</option>
+        <option value="jpeg">jpeg</option></select
+      ><br /><br />
+      <button
+        type="button"
+        class="btn btn-warning"
+        onclick="download()"
+        style="border: 3px solid black"
+      >
+        CONVERT
+      </button>
+      <br /><br />
+      <canvas id="canvas" style="border: 2px solid black"> </canvas><br /><br />
+      <a id="hello">Download</a>
+    </div>
+  </div>
+</div>
+
+{% include script.html %}

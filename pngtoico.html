@@ -1,0 +1,66 @@
+---
+layout: feature
+lang: en
+fileName: en
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-sm-12 col-md-12 col-lg-12">
+      <i
+        class="far fa-images"
+        style="font-size: 90px; margin-top: 50px; color: white"
+      ></i
+      ><br />
+      <input
+        type="file"
+        accept="image/*"
+        id="input"
+        onchange="convert()"
+        style="margin-left: 30px; font-size: 20px"
+      />
+      <br />
+      <br />
+      <input
+        type="text"
+        id="width"
+        placeholder="enter the width"
+        style="border-radius: 15px; height: 35px"
+      />
+      X
+      <input
+        type="text"
+        id="height"
+        placeholder="enter the height"
+        style="border-radius: 15px; height: 35px"
+      />
+      <br />
+      <br />
+      <button
+        type="button"
+        onclick="resolution()"
+        style="border-radius: 25px; font-size: 15px"
+        class="btn btn-primary"
+      >
+        CHANGE RESOLUTION
+      </button>
+      <br />
+      <br />
+      <button
+        type="button"
+        class="btn btn-dark"
+        id="b"
+        onclick="convert()"
+        style="color: white; border: 3px solid white; padding: 15px 35px"
+      >
+        CONVERT
+      </button>
+      <br />
+      <canvas id="canvas" width="1" height="1"> </canvas>
+      <br />
+      <span id="but"></span>
+    </div>
+  </div>
+</div>
+
+{% include pngtoico.html %}

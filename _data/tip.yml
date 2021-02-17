@@ -1,0 +1,13 @@
+first:
+  - input: <div class="row"><div class="col col-sm-12 col-md-12 col-lg-12" style="color:white; font-family:'Lucida Console','Courier New', monospace;font-size:25px">ENTER THE BILL AMOUNT  <input id="amount" type="text" style="width:400px;height:50px;border-radius:20px" required></div></div>
+
+  - input: <div class="row"><div class="col col-sm-12 col-md-12 col-lg-12" style="color:white; font-family:'Lucida Console','Courier New', monospace;font-size:25px">TIP   (IN PERCENTAGE)  <input id="tip" type="text" style="width:400px;height:50px;border-radius:20px" required></div></div>
+
+  - input: <div class="row"><div class="col col-sm-12 col-md-12 col-lg-12" style="color:white; font-family:'Lucida Console','Courier New', monospace;font-size:25px">NO. OF PEOPLE SHARING  <input id="people" type="text" style="width:400px;height:50px;border-radius:20px" required></div></div>
+
+second:
+  - input: <div class='tab' style="padding:100px;background:red;border-radius:30px;display:inline-block;border:5px solid black;font-size:30px;font-family:'Lucida Console','Courier New', monospace"><u>AMOUNT</u><br></span><span id="one"></span></div>
+
+  - input: <div class='tab' style="padding:100px 100px;background:green;border-radius:30px;display:inline-block;border:5px solid black;font-size:30px;font-family:'Lucida Console','Courier New', monospace"><u>AMT(+tip)</u></br></span><span id="two"></span></div>
+
+  - input: <div  class='tab' style="padding:100px;background:yellow;border-radius:30px;display:inline-block;border:5px solid black;font-size:30px;font-family:'Lucida Console','Courier New', monospace;"><u>SHARING</u></br></span><span id="three"></span></div>

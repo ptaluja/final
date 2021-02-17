@@ -1,0 +1,83 @@
+{
+    "logo":"assets/images/alarm-clock.svg",
+    "heading":"Online Alarm Clock Website",
+    "company":[
+       {
+        "name":"Terms and Condition",
+        "url":"/terms-and-condition"
+          
+       },
+       {
+        "name":"Disclaimer",
+        "url":"/disclaimer"
+        
+      },
+      {
+        "name":"Privacy",
+        "url":"/privacy"
+        
+      }
+    ],
+    "product":[
+         {
+                "name":"Alarm Clock",
+                "url":"/alarm-clock"
+               },
+               {
+                "name":"Timer",
+                "url":"/timer"
+              },
+              {
+                "name":"Stopwatch",
+                "url":"/stopwatch"
+              }
+    ],
+    "networkSites":[
+        {
+            "name":"ABC.com",
+            "url":"/"
+            
+        },
+        {
+            "name":"PQR.com",
+            "url":"/"
+        },
+        {
+            "name":"XYZ.com",
+            "url":"/"
+            
+        }
+    ],
+    "social":[
+        {
+            "logo":"/assets/facebook.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/youtube.svg",
+            "url": "/",
+            "title":"abc"
+        },
+        {
+            "logo":"/assets/instagram.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/linkdin.svg",
+            "url": "/",
+            "title":"abc"
+            
+        },
+        {
+            "logo":"/assets/twitter.svg",
+            "url": "/",
+            "title":"abc"
+            
+        }
+    ],
+    "messege": "© 2021 Alaram-Clock — Made with love for the people of the internet."
+ }

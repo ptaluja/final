@@ -1,0 +1,58 @@
+{
+    "navbarBrandText": "",
+    "navbarBrandLogo": "assets/images/alarm-clock.svg",
+    "firstCat":[
+      {
+        "item": "item1",
+        "item2": "item2",
+        "item3": "item3",
+        "item4": "item4"
+      }
+    ],
+    "secondCat":[
+      {
+        "item": "item1",
+        "item2": "item2",
+        "item3": "item3",
+        "item4": "item4"
+      }
+    ],
+    "thirdCat":[
+      {
+        "item": "item1",
+        "item2": "item2",
+        "item3": "item3",
+        "item4": "item4"
+      }
+    ],
+    "fourCat":[
+      {
+        "item": "item1",
+        "item2": "item2",
+        "item3": "item3",
+        "item4": "item4"
+      }
+    ],
+    "fiveCat":[
+      {
+        "item": "item1",
+        "item2": "item2",
+        "item3": "item3",
+        "item4": "item4"
+      }
+    ],
+    "navItems":[
+       {
+        "name":"Alarm Clock",
+        "url":"/alarm-clock"
+       },
+       {
+        "name":"Timer",
+        "url":"/timer"
+      },
+      {
+        "name":"Stopwatch",
+        "url":"/stopwatch"
+      }
+    ]
+}
