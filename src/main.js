@@ -5,7 +5,7 @@ const path = require("path");
 
 app.get("/.netlify/functions/main", function (req, res) {
   var options = {
-    root: path.join(".netlify/functions/main/"),
+    root: path.join(__dirname, "compressor/functions/"),
   };
   console.log(options);
 
